@@ -17,6 +17,7 @@ The Example project in this repo is a kickstarting template.
   <!-- DataGrid is required for the UI tests runner dialog -->
   <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.3.12" />
   
+  <!-- The version major and minor should be the same from Avalonia above -->
   <PackageReference Include="AlexandreHtrb.AvaloniaUITest" Version="11.3.0.3" />
 </ItemGroup>
 ```
