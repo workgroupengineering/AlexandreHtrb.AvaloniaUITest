@@ -12,12 +12,12 @@ The Example project in this repo is a kickstarting template.
 
 ```xml
 <ItemGroup>
-  <PackageReference Include="Avalonia" Version="11.2.3" />
-  <!-- DataGrid is required for the UI tests runner dialog -->
-  <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.2.3" />
+  <PackageReference Include="Avalonia" Version="11.3.12" />
   
-  <!-- The version major and minor should be the same from Avalonia above. -->
-  <PackageReference Include="AlexandreHtrb.AvaloniaUITest" Version="11.2.*" />
+  <!-- DataGrid is required for the UI tests runner dialog -->
+  <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.3.12" />
+  
+  <PackageReference Include="AlexandreHtrb.AvaloniaUITest" Version="11.3.0.3" />
 </ItemGroup>
 ```
 
@@ -192,7 +192,7 @@ Alter the csproj to include UI tests only on Debug mode or when UITestsEnabled f
 
 <ItemGroup>
   <PackageReference
-    Include="AlexandreHtrb.AvaloniaUITest" Version="11.2.*"
+    Include="AlexandreHtrb.AvaloniaUITest" Version="11.3.0.3"
     Condition="'$(Configuration)'=='Debug' Or '$(UITestsEnabled)' == 'true'"   />
 </ItemGroup>
 ```

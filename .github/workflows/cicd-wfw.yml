@@ -5,7 +5,7 @@ on:
     inputs:
       avaloniaMinorVersions:
         required: true
-        default: '11.0; 11.1; 11.2'
+        default: '11.0; 11.1; 11.2; 11.3'
         type: string
 
 jobs:
@@ -24,6 +24,7 @@ jobs:
         dotnet-version: | 
           8.0.x
           9.0.x
+          10.0.x
 
     - name: Make packages
       shell: pwsh

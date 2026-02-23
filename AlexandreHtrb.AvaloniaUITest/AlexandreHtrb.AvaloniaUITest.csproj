@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <IsTrimmable>true</IsTrimmable>
     <IsAotCompatible>True</IsAotCompatible>
     <!-- override this via command-line to build for multiple versions of Avalonia -->
-    <AvaloniaMinorVersion>11.2</AvaloniaMinorVersion>
+    <AvaloniaMinorVersion>11.3</AvaloniaMinorVersion>
 
     <!-- To generate the package: 'dotnet pack -c Release' -->
     <PackageId>AlexandreHtrb.AvaloniaUITest</PackageId>
-    <PackageVersion>$(AvaloniaMinorVersion).0.2</PackageVersion>
+    <PackageVersion>$(AvaloniaMinorVersion).0.3</PackageVersion>
     <Description>Package for making on-screen live UI tests for Avalonia applications.</Description>
     <RepositoryUrl>https://github.com/alexandrehtrb/AlexandreHtrb.AvaloniaUITest.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
